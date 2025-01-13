@@ -3,12 +3,12 @@
 # https://github.com/bronxi47/disclo
 
 if [ $# -eq 0 ]; then
-    echo "Usage: $0 <file.txt>"
+    echo "Usage: $0 <file.txt> <output.txt>"
     exit 1
 fi
 
 input_file="$1"
-output_file="output_${input_file}"
+output_file="$2"
 
 RED='\033[0;31m'
 NC='\033[0m'
