@@ -21,7 +21,7 @@ $ sudo apt-get install poppler-utils
 
 ## Example Usage
 ```bash
-./disclo.sh URLs_list.txt
+./disclo.sh URLs_list.txt output_file.txt
 ```
 Disclo will execute and display how many PDF files were detected in the list.
 It will then process them one by one. When a keyword is found, it will display the URL and the matching keyword in the terminal.
